@@ -19,7 +19,14 @@
                 -6px -6px 10px rgba(255, 255, 255, .5),
                 6px 6px 8px rgba(255, 255, 255, .075),
                 6px 6px 10px rgba(0, 0, 0, .15);
+}
 
+.nav-circle {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    right: 10px;
 }
 
 .box2 {
@@ -58,13 +65,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nv1, .nv2, .nv3 {
-    text-align: right;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-
 .content {
     position: relative;
     left: 200px;
@@ -92,6 +92,17 @@
 
 }
 
+.nv1, .nv2, .nv3 {
+    background-color: #505050;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+}
 
 
 /* hover */
@@ -100,8 +111,38 @@
     box-shadow:  0 0 10px 5px #80b7ff;
 }
 
+.nv1:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px 5px #ff9d9d;
+}
+
+.nv2:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px 5px #ff9d9d;
+}
+
+.nv3:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px 5px #ff9d9d;
+}
+
 /* active */
 .prf-img:active {
     border: 3px solid #ff0000;
     box-shadow:  0 0 10px 5px #ff9898;
+}
+
+.nv1:active {
+    background-color: #00ff00;
+    box-shadow: 0 0 10px 5px #91ff91;
+}
+
+.nv2:active {
+    background-color: #00ff00;
+    box-shadow: 0 0 10px 5px #91ff91;
+}
+
+.nv3:active {
+    background-color: #00ff00;
+    box-shadow: 0 0 10px 5px #91ff91;
 }
